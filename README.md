@@ -1,2 +1,2 @@
-# trajectory_grapher
+# Trajectory Grapher
 Linear Algebra Research Project
