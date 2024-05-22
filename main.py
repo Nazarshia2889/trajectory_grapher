@@ -11,6 +11,16 @@ st.text("Play around with the initial conditions to see how the trajectories cha
 
 n_trajectories = st.slider("Number of Trajectories", 1, 20, 1)
 
+st.latex(r'''
+         x'(t) = Ax(t)
+         ''')
+st.latex(r''' A =
+    \begin{bmatrix}
+    -1.5 & 0.5 \\
+    1 & -1 
+    \end{bmatrix}
+         ''')
+
 a = np.array([[1, -1],
               [2, 1]])
 
