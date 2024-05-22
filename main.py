@@ -20,6 +20,9 @@ st.latex(r''' A =
     1 & -1 
     \end{bmatrix}
          ''')
+st.latex(r'''  
+         x(t) = c_1 e^{-0.5t} \begin{bmatrix} 1 \\ 2 \end{bmatrix} + c_2 e^{-2t} \begin{bmatrix} -1 \\ 1 \end{bmatrix}
+        ''')
 
 a = np.array([[1, -1],
               [2, 1]])
